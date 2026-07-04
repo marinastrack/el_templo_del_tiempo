@@ -65,7 +65,7 @@
         }
         .crawling-beetle {
             position: fixed;
-            bottom: 12%;
+            bottom: 8%;
             left: 110%;
             animation: crawl-left 32s linear infinite;
             pointer-events: none;
@@ -150,9 +150,9 @@
                 <p>"Hemos cruzado el umbral del templo del sabio Amón-Fis. Tras nosotros, el enorme portón de granito se ha derrumbado. El aire comienza a escasear y las cámaras del templo colapsan a ritmo constante. Las inscripciones indican que solo entendiendo la constante del movimiento uniforme y la sagrada razón de proporcionalidad directa podremos desbloquear las salidas..."</p>
             </div>
 
-            <div class="bg-egyptian-gold/5 p-4 rounded border border-egyptian-gold/10 text-xs text-left text-egyptian-sand/80 space-y-1">
+            <div class="bg-egyptian-gold/5 p-4 rounded border border-egyptian-gold/10 text-s text-left text-egyptian-sand/80 space-y-1">
                 <p class="font-bold text-egyptian-gold">💡 ¿Cómo funciona el MRU?</p>
-                <p>En el Movimiento Rectilíneo Uniforme, la velocidad es constante. Esto implica que la distancia (d) y el tiempo (t) son directamente proporcionales mediante la constante de velocidad: d = v · t.</p>
+                <p>En el Movimiento Rectilíneo Uniforme, la velocidad es constante. Esto implica que la distancia (d) y el tiempo (t) son directamente proporcionales mediante la constante de velocidad: d = <span class="font-bold text-egyptian-gold">v</span> · t.</p>
             </div>
 
             <button onclick="startGame()" class="w-full bg-egyptian-gold hover:bg-egyptian-goldhover text-egyptian-dark font-bold font-header py-4 rounded-lg shadow-lg transform active:scale-95 transition-all text-lg tracking-widest">
@@ -766,5 +766,6 @@
             document.getElementById('screen-intro').classList.remove('hidden');
         }
     </script>
+	<span class="font-bold text-xs text-egyptian-gold"> © 2026 Marina Strack </span>
 </body>
 </html>
